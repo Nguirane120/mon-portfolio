@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # "hello"
-    "projects"
+    "projects",
+    "blog"
 ]
 
 MIDDLEWARE = [
@@ -52,6 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mon_portfolio.urls'
+STATIC_URL = 'static/'
 
 TEMPLATES = [
     {
